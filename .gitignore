@@ -1,0 +1,12 @@
+# Ignore OS artifacts
+.DS_Store
+Thumbs.db
+
+# Ignore cache files
+/.sass-cache
+/.cache
+/tmp/
+/tmp/*
+
+# But not the tmp directory itself
+!/tmp/.keep
